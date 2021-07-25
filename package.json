@@ -1,0 +1,12 @@
+{
+    "name": "4ta_entrega_juli",
+    "version": "1.0.0",
+    "description": "Pastelería en San Antonio de Padua, Propio Pasteleria de Julieta Riera",
+    "keywords": ["propio pasteleria", "San antonio de Padua"],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "JulianLaterza",
+    "license": "ISC"
+}

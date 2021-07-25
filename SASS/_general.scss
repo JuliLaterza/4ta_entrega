@@ -1,0 +1,94 @@
+$color-gris: #d6d6d6;
+$color-amaclaro: #ffee32;
+$color-amaoscuro: #ffd100;
+$color-negro: #202020;
+$color-negroclaro: #333533;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.navbar {
+    padding: 15px 100px;
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                text-decoration: none;
+                color: $color-negro;
+                margin: 0px 10px;
+            }
+        }
+        display: flex;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    margin: 0 100px;
+    h3 {
+        font-size: 25px;
+    }
+}
+
+.text {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 25px;
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
+
+footer {
+    background-color: $color-negroclaro;
+    padding: 30px 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .copyright p {
+        color: #ffd100;
+    }
+    .redes {
+        color: #ffd100;
+        ul {
+            list-style: none;
+            li {
+                a {
+                    text-decoration: none;
+                    color: #ffd100;
+                    &:hover {
+                        border-bottom: 2px $color-amaoscuro;
+                    }
+                    }
+                }
+                
+            }
+        }
+    }
+    .contacto {
+        color: #ffd100;
+        ul {
+            list-style: none;
+            li {
+                a {
+                    text-decoration: none;
+                    color:#ffd100;
+                }
+            }
+        }
+    }
+
+
+// Animaciones
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

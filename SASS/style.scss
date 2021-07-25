@@ -1,0 +1,16 @@
+@import "general";
+@import "inicio";
+@import "delicias";
+@import "servicios";
+@import "local";
+@import "contacto";
+$color-gris: #d6d6d6;
+$color-amaclaro: #ffee32;
+$color-amaoscuro: #ffd100;
+$color-negro: #202020;
+$color-negroclaro: #333533;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,36 @@
+#ofer {
+    margin-bottom: 50px;
+}
+
+.img-ofer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images-ofer {
+    width: 300px;
+    height: 45vh;
+    border-radius: 10px;
+    opacity: 80%;
+     :hover {
+        transform: scale(1.02);
+        opacity: 100%;
+        transition-duration: 500ms;
+    }
+}
+
+.card-img-top {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: $color-amaoscuro;
+}
+
+.card-body {
+    background-color: $color-amaoscuro;
+    .btn-primary {
+        background-color: #333533 !important;
+    }
+}

@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .column-left {
+        margin-top: 100px;
+        h3 {
+            color: $color-negroclaro;
+            margin-bottom: 50px;
+        }
+    }
+    .column-right {
+        margin-top: 50px;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    margin: 50px 0px 10px 0px;
+}
+
+.imag-princ {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-ing {
+    background-color: $color-amaoscuro;
+    border: 0;
+    color: $color-negroclaro;
+}
+
+.botones {
+    margin-top: 50px;
+}
